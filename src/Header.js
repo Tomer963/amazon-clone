@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import AmazonLogo from './assets/amazon_logo.png';
 import SearchIcon from '@material-ui/icons/Search';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
 import './Header.css';
 
