@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import Checkout from './Checkout';
 import Header from './Header';
 import Home from './Home';
 
@@ -8,13 +9,13 @@ const App = () => {
     <Router>
       <Header />
       <Switch>
-        <Route path='/'>
+        <Route path='/' exact>
           <Home />
         </Route>
-        <Route path='/checkout'>
-          <h1>check out</h1>
+        <Route path='/checkout' exact>
+          <Checkout />
         </Route>
-        <Route path='/login'>
+        <Route path='/login' exact>
           <h1>login</h1>
         </Route>
       </Switch>

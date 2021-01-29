@@ -12,7 +12,7 @@ const Header = () => {
   const [
     { basket },
     // ,dispatch
-  ] = useStateValue(); // don't need dispatch here its only for reference
+  ] = useStateValue(); // don't need dispatch here, only for reference
 
   return (
     <nav className='header'>

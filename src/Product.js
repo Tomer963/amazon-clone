@@ -6,7 +6,7 @@ import './Product.css';
 
 const Product = ({ id, title, image, price, rating }) => {
   const [
-    // { basket },
+    { basket },
     dispatch,
   ] = useStateValue(); // don't need {basket} here, only for reference
 
